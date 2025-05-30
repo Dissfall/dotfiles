@@ -33,3 +33,4 @@ eval "$(zoxide init --cmd cd zsh)"
 
 export DOCKER_HOST="unix://$HOME/.colima/docker.sock"
 
+autoload -Uz compinit; compinit
